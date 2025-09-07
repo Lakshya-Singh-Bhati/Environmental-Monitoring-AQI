@@ -1,7 +1,7 @@
 # Environmental-Monitoring-AQI
 AI-based Air Quality Index (AQI) Prediction System – Edunet Foundation Internship (4 Weeks)
 
-
+WEEK 1:
 📌 Internship Information
 - **Organization:** Edunet Foundation  
 - **Internship Theme:** Environmental Monitoring & Pollution Control  
@@ -44,3 +44,46 @@ There is a strong need for intelligent systems that can **predict air quality le
 - ✅ Chosen **problem statement**: Air Quality Prediction  
 - ✅ Identified **datasets** from Kaggle & CPCB  
 - ✅ Outlined **objectives, methods, and expected outcomes**  
+
+
+WEEK 2:
+
+📌 Work Completed (60% Project Progress)
+
+📌 Data Preprocessing & Cleaning
+
+Checked dataset for missing values and duplicates
+
+Handled missing values to ensure data quality
+
+Encoded categorical features (Country, Status) using Label Encoding
+
+📌 Exploratory Data Analysis (EDA)
+
+Plotted AQI value distributions
+
+Visualized correlations between pollutants (PM2.5, PM10, NO₂, etc.) and AQI
+
+Counted AQI status categories (Good, Moderate, Poor, etc.)
+
+Compared AQI values across different countries
+
+📌 Model Building (Baseline Linear Regression)
+
+Performed train-test split (80:20)
+
+Trained Linear Regression model on training data
+
+Evaluated model performance:
+
+Mean Squared Error (MSE): 900.20
+
+R² Score: 0.61
+
+📌 Insights
+
+Baseline model explains ~61% of AQI variance
+
+PM2.5, PM10, and NO₂ are the strongest contributors to AQI
+
+Linear Regression provides a solid starting point for further improvements
